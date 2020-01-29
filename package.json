@@ -1,0 +1,22 @@
+{
+  "name": "cli-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node script.js"
+  },
+  "bin": {
+    "dict": "index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "prompt": "^1.0.0",
+    "request": "^2.88.0",
+    "string-similarity": "^4.0.1",
+    "yargs": "^15.1.0"
+  }
+}
